@@ -15,8 +15,9 @@ function App() {
                 </div>
                 <div className="center-content">
                     <p className="content-header">x/7777 NFTits</p>
-                    <p className="contract-address">Title</p>
-                    <p className="content-description">Title</p>
+                    <p className="contract-address">Smart Contract</p>
+                    <p className="content-description">0.07ETH per NFTits</p>
+                    <p className="content-description-small">excluding gas fees</p>
                     <button className="connect-button">Connect Wallet</button>
                 </div>
                 <div className="image-container">

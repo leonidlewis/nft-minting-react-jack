@@ -66,6 +66,16 @@
   font-weight: 500;
   line-height: 1.6;
   color: white;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+.content-description-small {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.6;
+  color: white;
+  margin-top: 0px;
+  margin-bottom: 30px;
 }
 .connect-button {
   border-radius: 50px;
