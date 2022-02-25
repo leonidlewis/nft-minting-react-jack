@@ -2,7 +2,7 @@ import './App.css';
 import logo from './assets/images/logo.png'
 import left from './assets/images/unknown.png'
 import right from './assets/images/fetish.png'
-
+import nft from './assets/images/nftlogo.png'
 function App() {
     return (
         <div className="App">
@@ -11,7 +11,7 @@ function App() {
             </div>
             <div className="main-content">
                 <div className="image-container">
-                    <img src={left} alt="left" className="logo" />
+                    <img src={nft} alt="left" className="nft-style" />
                 </div>
                 <div className="center-content">
                     <p className="content-header">x/7777 NFTits</p>
@@ -20,7 +20,7 @@ function App() {
                     <button className="connect-button">Connect Wallet</button>
                 </div>
                 <div className="image-container">
-                    <img src={right} alt="right" className="logo" />
+                    <img src={nft} alt="right" className="nft-style" />
                 </div>
             </div>
         </div>
