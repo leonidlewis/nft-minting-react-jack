@@ -24,6 +24,15 @@ function App() {
                     <img src={right} alt="right" className="nft-style" />
                 </div>
             </div>
+            <div className="footer">
+                <p>
+                Please make sure you are connected to the right network (Ethereum Mainnet) and the correct address. 
+                Please note: Once you make the purchase, you cannot undo this action.
+                </p>
+                <p>
+                We have set the gas limit to 280000 for the contract to successfully mint your NFT. We recommend that you don't lower the gas limit.
+                </p>
+            </div>
         </div>
     );
 }
